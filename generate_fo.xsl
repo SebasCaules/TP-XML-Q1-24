@@ -110,13 +110,27 @@
                                     </fo:table-cell>
                                     <fo:table-cell>
                                         <fo:block font-size="8pt" text-align="center">
-                                            <xsl:value-of select="car" />
+                                            <xsl:choose>
+                                                <xsl:when test="car != ''">
+                                                    <xsl:value-of select="car" />
+                                                </xsl:when>
+                                                <xsl:otherwise> - </xsl:otherwise>
+                                            </xsl:choose>
                                         </fo:block>
                                     </fo:table-cell>
                                     <fo:table-cell>
-                                        <fo:block font-size="8pt" text-align="center">
-                                            <xsl:value-of select="rank" />
-                                        </fo:block>
+                                        <xsl:choose>
+                                            <xsl:when test="rank > 3">
+                                                <fo:block font-size="8pt" text-align="center">
+                                                    <xsl:value-of select="rank" />
+                                                </fo:block>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <fo:block font-size="8pt" text-align="center" color="green">
+                                                    <xsl:value-of select="rank" />
+                                                </fo:block>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </fo:table-cell>
                                     <fo:table-cell>
                                         <fo:block font-size="8pt" text-align="center">

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/standings-v2.0.xsl"?>
-<!-- Generation started @ 2024-01-25 23:11:46 UTC -->
-<series xmlns="http://feed.elasticstats.com/schema/nascar/standings-v2.0.xsd" id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
+<series id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
   <season year="2023" id="c0d60291-2ccc-44c6-9d81-039b01f41110">
     <driver rank="1" id="67948099-4196-4e1b-ae9e-b437aa99000a" first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" status="ACT" points="5035" starts="36" wins="3" poles="0" stage_wins="6" chase_bonus="21" chase_wins="2" chase_stage_wins="3" top_5="8" top_10="18" top_15="23" top_20="24" dnf="3" laps_led="562" laps_completed="9060" money="0.0" avg_start_position="12.6944" avg_finish_position="14.0833" avg_laps_completed="251.6667" laps_led_pct="6.2" in_chase="true"/>
     <driver rank="2" behind="-1" id="a756eefd-801d-4214-ab1b-0b595c21c37d" first_name="Kyle" last_name="Larson" full_name="Kyle Larson" status="ACT" points="5034" starts="36" wins="4" poles="2" stage_wins="8" chase_bonus="32" chase_wins="2" chase_stage_wins="5" top_5="15" top_10="18" top_15="21" top_20="25" dnf="8" laps_led="1127" laps_completed="8940" money="0.0" avg_start_position="10.3611" avg_finish_position="14.6389" avg_laps_completed="248.3333" laps_led_pct="12.61" in_chase="true"/>

@@ -1,3 +1,5 @@
+declare namespace ns1 = "http://feed.elasticstats.com/schema/nascar/series-v2.0.xsd";
+declare namespace ns2 = "http://feed.elasticstats.com/schema/nascar/standings-v2.0.xsd";
 
 let $drivers_list := doc("drivers_list.xml")
 let $drivers_standings := doc("drivers_standings.xml")
@@ -5,12 +7,12 @@ let $drivers_standings := doc("drivers_standings.xml")
 return
 <nascar_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nascar_data.xsd">
   
-  <year>{data($drivers_standings//season/@year)}</year>
-  <serie_type>{data($drivers_standings/series/@name)}</serie_type> 
+  <year>{data($drivers_standings//ns2:season/@year)}</year>
+  <serie_type>{data($drivers_standings/ns2:series/@name)}</serie_type> 
   <drivers> 
   {
-  for $driver in $drivers_standings//driver
-  let $details := $drivers_list//driver[@id = $driver/@id]
+  for $driver in $drivers_standings//ns2:driver
+  let $details := $drivers_list//ns1:driver[@id = $driver/@id]
   order by xs:integer($driver/@rank)
 
   return
@@ -20,7 +22,7 @@ return
       <birth_date>{data($details/@birthday)}</birth_date> 
       <birth_place>{data($details/@birth_place)}</birth_place> 
       <rank>{data($driver/@rank)}</rank>
-      <car>{data($details//manufacturer/@name)}</car> 
+      <car>{data($details//ns1:manufacturer/@name)}</car> 
       <statistics> 
 
         <season_points>{data($driver/@points)}</season_points> 

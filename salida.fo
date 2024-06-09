@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+   <fo:layout-master-set>
+      <fo:simple-page-master master-name="first"
+                             margin-right="1.5cm"
+                             margin-left="1.5cm"
+                             margin-bottom="2cm"
+                             margin-top="1cm"
+                             page-width="21cm"
+                             page-height="29.7cm">
+         <fo:region-body margin-top="1cm"/>
+         <fo:region-before extent="1cm"/>
+         <fo:region-after extent="1.5cm"/>
+      </fo:simple-page-master>
+   </fo:layout-master-set>
+   <fo:page-sequence master-reference="first">
+      <fo:static-content flow-name="xsl-region-before">
+         <fo:block line-height="14pt" font-size="10pt" text-align="end">TPE 2024 - Grupo
+        03</fo:block>
+      </fo:static-content>
+      <fo:flow flow-name="xsl-region-body">
+         <fo:block space-before.optimum="15pt" space-after.optimum="15pt">Drivers for NASCAR Cup Series for 2023 season</fo:block>
+         <fo:table table-layout="fixed" width="100%">
+            <fo:table-column column-number="1" column-width="14%"/>
+            <fo:table-column column-number="2" column-width="10%"/>
+            <fo:table-column column-number="3" column-width="10%"/>
+            <fo:table-column column-number="4" column-width="14%"/>
+            <fo:table-column column-number="5" column-width="9%"/>
+            <fo:table-column column-number="6" column-width="8%"/>
+            <fo:table-column column-number="7" column-width="7%"/>
+            <fo:table-column column-number="8" column-width="7%"/>
+            <fo:table-column column-number="9" column-width="7%"/>
+            <fo:table-column column-number="10" column-width="8%"/>
+            <fo:table-column column-number="11" column-width="8%"/>
+            <fo:table-header>
+               <fo:table-row background-color="rgb(215,245,250)">
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Name</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Country</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Birth date</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Birth place</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Car manufacturer</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Rank</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Season points</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Wins</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Poles</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Unfinished
+                                        races</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Completed laps</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-header>
+            <fo:table-body border-width="1pt" border-style="solid">
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ryan Blaney</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1993-12-31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">High Point, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center" color="green">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5035</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9060</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Kyle Larson</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1992-07-31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Elk Grove, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center" color="green">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5034</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8940</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">William Byron</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1997-11-29</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Charlotte, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center" color="green">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5033</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9064</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Christopher Bell</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1994-12-16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Norman, Oklahoma, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5001</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8868</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Denny Hamlin</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1980-11-18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chesterfield, Virginia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2383</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9001</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Tyler Reddick</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1996-01-11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Corning, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2344</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9014</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chris Buescher</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1992-10-29</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Prosper, Texas, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">7</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2310</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9225</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Brad Keselowski</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1984-02-12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Rochester Hills, Michigan, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2302</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9054</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ross Chastain</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1992-12-04</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Alva, Florida, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2299</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9051</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Bubba Wallace</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1993-10-08</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Mobile, Alabama, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2279</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9188</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Martin Truex Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1980-06-29</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Mayetta, New Jersey, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2269</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8986</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Joey Logano</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1990-05-24</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Middletown, Connecticut, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2258</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8681</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Kevin Harvick</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1975-12-08</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Bakersfield, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">13</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2241</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9217</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Kyle Busch</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1985-05-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Las Vegas, Nevada, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">14</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2232</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8560</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Michael McDowell</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1984-12-21</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Glendale, Arizona, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2185</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9126</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ricky Stenhouse Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1987-10-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Olive Branch, Mississippi, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2168</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9170</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chase Elliott</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1995-11-28</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Dawsonville, Georgia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">17</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">820</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">7006</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ty Gibbs</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2002-10-04</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Charlotte, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">771</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8870</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Daniel Suárez</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">MEXICO</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1992-01-07</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Monterrey, , Mexico</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">19</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">756</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8390</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Alex Bowman</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1993-04-25</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Tucson, Arizona, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">20</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">701</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8059</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">AJ Allmendinger</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1981-12-16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Los Gatos, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">21</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">692</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9120</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Aric Almirola</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1984-03-14</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Tampa, Florida, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">22</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">675</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8977</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ryan Preece</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1990-10-25</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Berlin, Connecticut, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">23</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">637</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9106</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Austin Cindric</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1998-09-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Mooresville, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">24</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">626</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9137</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Corey LaJoie</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1991-09-25</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Concord, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">25</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">603</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9143</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Justin Haley</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1999-04-28</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Winamac, Indiana, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">26</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">593</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9025</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Erik Jones</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1996-05-30</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Byron, Michigan, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">27</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">578</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9089</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Todd Gilliland</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2000-05-15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Sherrills Ford, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">28</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">554</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8884</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Austin Dillon</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1990-04-27</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Welcome, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">29</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">545</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8698</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chase Briscoe</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1994-12-15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Mitchell, Indiana, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">30</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">534</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">9160</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Harrison Burton</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2000-10-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Huntersville, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">452</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8924</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ty Dillon</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1992-02-27</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Welcome, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">32</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">364</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8331</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Noah Gragson</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1998-07-15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Las Vegas, Nevada, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">33</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">199</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">4713</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Cody Ware</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1995-11-07</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Greensboro, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">34</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">65</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1705</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Jenson Button</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">ENGLAND</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1980-01-19</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Frome, , England</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">35</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">45</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">234</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Mike Rockenfeller</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">SWITZERLAND</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1983-10-31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Altnau, , Switzerland</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">36</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">39</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">280</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Travis Pastrana</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1983-10-08</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Annapolis, Maryland, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">37</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">26</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">212</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Brodie Kostecki</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">AUSTRALIA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1997-11-01</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Perth, , Australia</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">38</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">82</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Jimmie Johnson</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1975-09-17</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">El Cajon, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">39</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">318</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Kimi Raikkonen</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">FINLAND</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1979-10-17</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Espoo, , Finland</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">40</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">75</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Jonathan Davenport</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1983-10-31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Blairesville, Georgia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">41</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">176</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Shane Van Gisbergen</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">NEW ZEALAND</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1989-05-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Auckland, , New Zealand</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">42</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">160</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Josh Berry</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1990-10-22</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Hendersonville, Tennessee, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">43</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2661</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">JJ Yeley</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1976-10-05</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Phoenix, Arizona, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">44</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">7050</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Riley Herbst</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1999-02-24</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Las Vegas, Nevada, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">45</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">690</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Zane Smith</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1999-06-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Huntington Beach, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">46</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1948</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chandler Smith</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2002-06-26</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Talking Rock, Georgia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">47</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">751</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Carson Hocevar</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2003-01-28</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Portage, Michigan, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">48</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2571</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Austin Hill</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1994-04-21</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Winston, Georgia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">49</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">758</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">BJ McLeod</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1983-11-17</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Wauchula, Florida, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">50</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">5666</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Josh Bilicki</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1995-06-03</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Menomonee Falls, Wisconsin, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">51</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1497</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Cole Custer</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1998-01-23</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ladera Ranch, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">52</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1025</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Jordan Taylor</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1991-05-10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Orlando, Florida, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">53</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">75</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Andy Lally</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1975-02-11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Northport, New York, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">54</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">442</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ryan Newman</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1977-12-08</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">South Bend, Indiana, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">55</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">2680</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Grant Enfinger</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1985-01-22</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Fairhope, Alabama, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">56</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">110</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Brennan Poole</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1991-04-11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">The Woodlands, Texas, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">57</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1224</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Conor Daly</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1991-12-15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Noblesville, Indiana, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">58</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">222</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Sheldon Creed</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1997-09-30</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Alpine, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">59</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">266</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Gray Gaulding</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1998-02-10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Colonial Heights, Virginia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">60</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">242</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">John H. Nemechek</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1997-06-11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Mooresville, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">61</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">218</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Anthony Alfredo</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1999-03-31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Ridgefield, Connecticut, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">62</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">786</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Kamui Kobayashi</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">JAPAN</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1986-09-13</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Amagasaki, , Japan</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">63</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">81</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Matt Crafton</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">UNITED STATES</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1976-06-11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">Tulare, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center"> - </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">64</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block font-size="8pt" text-align="center">185</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>

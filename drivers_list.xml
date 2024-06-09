@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/series-v2.0.xsl"?>
-<!-- Generation started @ 2023-12-22 06:14:56 UTC -->
-<series xmlns="http://feed.elasticstats.com/schema/nascar/series-v2.0.xsd" id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
+<?xml version="1.0" encoding="UTF-8"?><series id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
   <season year="2023" id="c0d60291-2ccc-44c6-9d81-039b01f41110">
     <driver id="3ebef96f-43b4-422a-9d0c-db0127b25384" first_name="Alex" last_name="Bowman" full_name="Alex Bowman" birthday="1993-04-25" rookie_year="2013" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Tucson, Arizona, United States" twitter="@AlexBRacing" points_eligible="true">
       <team id="8427da4c-9c88-4849-9242-0c184d5ed67c" name="Hendrick Motorsports">
@@ -623,4 +620,3 @@
     </driver>
   </season>
 </series>
-<!-- Generation ended @ 2023-12-22 06:14:57 UTC -->
