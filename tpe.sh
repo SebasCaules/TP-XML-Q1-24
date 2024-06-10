@@ -61,7 +61,9 @@ if [ $? -ne 0 ]; then
     fi
 fi
 
-curl "https://api.sportradar.com/nascar-ot3/${type}/${year}/standings/drivers.xml?api_key=64" -o drivers_standings.xml
+sleep 2
+
+curl "https://api.sportradar.com/nascar-ot3/${type}/${year}/standings/drivers.xml?api_key=${api_key}" -o drivers_standings.xml
 
 if [ $? -ne 0 ]; then
     echo "API call failed in drivers standings"
