@@ -1,13 +1,11 @@
+#!/bin/bash
+
 # Para definir la api key primero se tiene que hacer el siguiente comando en la terminal que se va a utilizar
 # export SPORTRADAR_API=apikey
-
 api_key=$SPORTRADAR_API
 type=$1
 year=$2
-
 errors=0
-
-
 if [ -z $api_key ]; then
     echo "There is no API key set as environment variable"
     printf '<nascar_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nascar_data.xsd">\n\t<error>API key missing.</error>\n' >> nascar_data.xml
