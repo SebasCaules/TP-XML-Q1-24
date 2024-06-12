@@ -49,12 +49,6 @@ if [ $? -eq 1 ]; then
     fi
 fi
 
-curl "https://api.sportradar.com/nascar-ot3/${type}/${year}/drivers/list.xml?api_key=${api_key}" -o drivers_list.xml
-
-sleep 2
-
-curl "https://api.sportradar.com/nascar-ot3/${type}/${year}/standings/drivers.xml?api_key=${api_key}" -o drivers_standings.xml
-
 if [ $errors -eq 1 ]; then
     printf '</nascar_data>' >>nascar_data.xml
     java net.sf.saxon.Transform -s:nascar_data.xml -xsl:generate_fo.xsl -o:nascar_page.fo
@@ -63,6 +57,13 @@ if [ $errors -eq 1 ]; then
     rm nascar_data.xml
     exit 1
 fi
+
+curl "https://api.sportradar.com/nascar-ot3/${type}/${year}/drivers/list.xml?api_key=${api_key}" -o drivers_list.xml
+
+sleep 2
+
+curl "https://api.sportradar.com/nascar-ot3/${type}/${year}/standings/drivers.xml?api_key=${api_key}" -o drivers_standings.xml
+
 
 java net.sf.saxon.Transform -s:drivers_list.xml -xsl:remove_namespace.xsl -o:drivers_list.xml
 java net.sf.saxon.Transform -s:drivers_standings.xml -xsl:remove_namespace.xsl -o:drivers_standings.xml
