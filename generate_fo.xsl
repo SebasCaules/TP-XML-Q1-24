@@ -67,7 +67,7 @@
                                                 <fo:block font-size="8pt" text-align="center">Birth place</fo:block>
                                             </fo:table-cell>
                                             <fo:table-cell>
-                                                <fo:block font-size="8pt" text-align="center">Carmanufacturer</fo:block>
+                                                <fo:block font-size="8pt" text-align="center">Car manufacturer</fo:block>
                                             </fo:table-cell>
                                             <fo:table-cell>
                                                 <fo:block font-size="8pt" text-align="center">Rank</fo:block>
