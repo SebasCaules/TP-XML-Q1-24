@@ -100,7 +100,7 @@
                                                 </fo:table-cell>
                                                 <fo:table-cell>
                                                     <fo:block font-size="8pt" text-align="center">
-                                                        <xsl:value-of select="country" />
+                                                        <xsl:value-of select="concat(upper-case(substring(country, 1, 1)), lower-case(substring(country, 2)))" />
                                                     </fo:block>
                                                 </fo:table-cell>
                                                 <fo:table-cell>
